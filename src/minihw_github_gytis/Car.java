@@ -27,9 +27,9 @@ public class Car {
         public Car() {
             
         make = "BMW";
-        model = "520d";
-        numOfWheels = 4;
-        colour = "green";
+        model = "M3";
+        colour = "Blue";
+        speed = 40;
     }
         
         public void drive(String direction) {

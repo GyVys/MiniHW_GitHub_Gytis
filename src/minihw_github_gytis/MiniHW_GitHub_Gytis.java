@@ -15,10 +15,10 @@ public class MiniHW_GitHub_Gytis {
      */
     public static void main(String[] args) {
         
-        Car car1 = new Car("Ford", "Focus", 4, "Silver", 120);
+        Car car1 = new Car("Ford", "Focus", "Silver", 120);
         car1.drive("forward");
         
-        Car car2 = new Car("Honda", "Accord", 4, "Black");
+        Car car2 = new Car("Honda", "Accord", "Black", 60);
         car2.drive("sideways");
         
         Car car3 = new Car();
