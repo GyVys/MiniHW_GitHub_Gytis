@@ -15,7 +15,7 @@ public class MiniHW_GitHub_Gytis {
      */
     public static void main(String[] args) {
         
-        Car car1 = new Car("Ford", "Focus", 4, "Silver");
+        Car car1 = new Car("Ford", "Focus", 4, "Silver", 120);
         car1.drive("forward");
         
         Car car2 = new Car("Honda", "Accord", 4, "Black");
