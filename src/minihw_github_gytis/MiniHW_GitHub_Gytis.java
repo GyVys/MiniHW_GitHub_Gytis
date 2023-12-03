@@ -20,6 +20,9 @@ public class MiniHW_GitHub_Gytis {
         
         Car car2 = new Car("Honda", "Accord", 4, "Black");
         car2.drive("sideways");
+        
+        Car car3 = new Car();
+        car3.drive("backwards");
     }
     
 }
