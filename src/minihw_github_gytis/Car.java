@@ -24,6 +24,14 @@ public class Car {
     
         }
         
+        public Car() {
+            
+        make = "BMW";
+        model = "520d";
+        numOfWheels = 4;
+        colour = "green";
+    }
+        
         public void drive(String direction) {
         System.out.println("The " + colour + " " + make + " " + model + " is driving " + direction);
         }
